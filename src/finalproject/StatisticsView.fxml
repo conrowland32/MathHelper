@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.StatisticsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#003465" height="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="600.0" />
+      <Label fx:id="percentLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="392.0" layoutY="15.0" prefHeight="276.0" prefWidth="123.0" text="100.0%" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="returnButton" layoutX="176.0" layoutY="266.0" mnemonicParsing="false" onAction="#returnButton" prefHeight="55.0" prefWidth="114.0" text="Return">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="fracLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="269.0" layoutY="15.0" prefHeight="276.0" prefWidth="114.0" text="200 / 200" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="39.0" layoutY="15.0" prefHeight="276.0" prefWidth="162.0" text="Multiplication:" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="resetButton" layoutX="310.0" layoutY="266.0" mnemonicParsing="false" onAction="#resetButton" prefHeight="55.0" prefWidth="114.0" text="Reset Stats">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="73.0" prefWidth="600.0" text="Statistics" textAlignment="CENTER" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
